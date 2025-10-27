@@ -1,6 +1,6 @@
-import { GoveeDevice } from '../entities/GoveeDevice';
-import { DeviceState } from '../entities/DeviceState';
-import { Command } from '../entities/Command';
+import { GoveeDevice } from '../entities/GoveeDevice.js';
+import { DeviceState } from '../entities/DeviceState.js';
+import { Command } from '../entities/Command.js';
 
 export interface IGoveeDeviceRepository {
   /**

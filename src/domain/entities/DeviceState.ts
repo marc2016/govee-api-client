@@ -1,4 +1,4 @@
-import { ColorRgb, ColorTemperature, Brightness } from '../value-objects';
+import type { ColorRgb, ColorTemperature, Brightness } from '../value-objects/index.js';
 
 export interface PowerState {
   value: 'on' | 'off';

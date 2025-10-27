@@ -1,1 +1,1 @@
-export { IGoveeDeviceRepository } from './IGoveeDeviceRepository';
+export type { IGoveeDeviceRepository } from './IGoveeDeviceRepository.js';

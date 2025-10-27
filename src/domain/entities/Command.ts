@@ -1,4 +1,4 @@
-import { ColorRgb, ColorTemperature, Brightness } from '../value-objects';
+import { ColorRgb, ColorTemperature, Brightness } from '../value-objects/index.js';
 
 export abstract class Command {
   abstract readonly name: string;

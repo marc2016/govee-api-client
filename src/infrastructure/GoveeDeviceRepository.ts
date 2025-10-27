@@ -1,7 +1,7 @@
-import axios, { AxiosInstance, AxiosError } from 'axios';
-import { Logger } from 'pino';
-import { IGoveeDeviceRepository } from '../domain/repositories/IGoveeDeviceRepository';
-import { GoveeDevice } from '../domain/entities/GoveeDevice';
+import axios, { type AxiosInstance, AxiosError } from 'axios';
+import type { Logger } from 'pino';
+import type { IGoveeDeviceRepository } from '../domain/repositories/IGoveeDeviceRepository.js';
+import { GoveeDevice } from '../domain/entities/GoveeDevice.js';
 import {
   DeviceState,
   PowerState,

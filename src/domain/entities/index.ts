@@ -1,4 +1,4 @@
-export { GoveeDevice } from './GoveeDevice';
+export { GoveeDevice } from './GoveeDevice.js';
 export {
   DeviceState,
   type PowerState,
@@ -6,7 +6,7 @@ export {
   type ColorTemperatureState,
   type BrightnessState,
   type StateProperty,
-} from './DeviceState';
+} from './DeviceState.js';
 export {
   Command,
   PowerOnCommand,
@@ -15,4 +15,4 @@ export {
   ColorCommand,
   ColorTemperatureCommand,
   CommandFactory,
-} from './Command';
+} from './Command.js';

@@ -1,5 +1,5 @@
-export { GoveeApiClientError } from './GoveeApiClientError';
-export { GoveeApiError } from './GoveeApiError';
-export { InvalidApiKeyError } from './InvalidApiKeyError';
-export { RateLimitError } from './RateLimitError';
-export { NetworkError } from './NetworkError';
+export { GoveeApiClientError } from './GoveeApiClientError.js';
+export { GoveeApiError } from './GoveeApiError.js';
+export { InvalidApiKeyError } from './InvalidApiKeyError.js';
+export { RateLimitError } from './RateLimitError.js';
+export { NetworkError } from './NetworkError.js';

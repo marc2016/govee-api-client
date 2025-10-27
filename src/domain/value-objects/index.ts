@@ -1,3 +1,3 @@
-export { ColorRgb } from './ColorRgb';
-export { ColorTemperature } from './ColorTemperature';
-export { Brightness } from './Brightness';
+export { ColorRgb } from './ColorRgb.js';
+export { ColorTemperature } from './ColorTemperature.js';
+export { Brightness } from './Brightness.js';

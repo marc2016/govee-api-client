@@ -1,5 +1,5 @@
 // Main client
-export { GoveeClient, type GoveeClientConfig } from './GoveeClient';
+export { GoveeClient, type GoveeClientConfig } from './GoveeClient.js';
 
 // Domain entities
 export {
@@ -17,7 +17,7 @@ export {
   type ColorTemperatureState,
   type BrightnessState,
   type StateProperty,
-} from './domain/entities';
+} from './domain/entities/index.js';
 
 // Value objects
 export { ColorRgb, ColorTemperature, Brightness } from './domain/value-objects';
